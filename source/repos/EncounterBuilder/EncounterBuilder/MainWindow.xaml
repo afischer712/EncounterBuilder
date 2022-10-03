@@ -1,0 +1,17 @@
+﻿<Window x:Class="EncounterBuilder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EncounterBuilder"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Create Character" HorizontalAlignment="Left" Margin="445,171,0,0" VerticalAlignment="Top" Click="CreateCharacter_Click"/>
+        <Button Content="Create Encounter" HorizontalAlignment="Left" Margin="263,171,0,0" VerticalAlignment="Top" Click="CreateEncounter_Click"/>
+        <Label Content="Encounter Builder - A TTRPG Creation Companion" HorizontalAlignment="Center" Margin="0,116,0,0" VerticalAlignment="Top"/>
+        <Button Content="View Encounters" HorizontalAlignment="Left" Margin="263,191,0,0" VerticalAlignment="Top" Click="ViewEncounters_Click"/>
+        <Button Content="View Characters" HorizontalAlignment="Left" Margin="449,191,0,0" VerticalAlignment="Top" Click="ViewCharacters_Click"/>
+
+    </Grid>
+</Window>
